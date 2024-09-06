@@ -1,0 +1,146 @@
+{
+  "all": {
+    "json": {
+      "components": {
+        "usedCount": 2,
+        "unusedCount": 0,
+        "coreAdoptionRate": 100,
+        "used": [
+          {
+            "name": "DSText",
+            "count": 1,
+            "core": true
+          },
+          {
+            "name": "OtherComponent",
+            "count": 1,
+            "core": true
+          }
+        ],
+        "unused": [],
+        "json": {
+          "definitions": [
+            {
+              "description": "",
+              "displayName": "DSText",
+              "methods": []
+            },
+            {
+              "description": "",
+              "displayName": "OtherComponent",
+              "methods": []
+            }
+          ],
+          "usage": {
+            "DSText": {
+              "instances": 1,
+              "props": {
+                "color": 1,
+                "size": 1
+              },
+              "localNames": [
+                "DSText"
+              ],
+              "filePaths": [
+                "src/App.tsx"
+              ]
+            },
+            "OtherComponent": {
+              "instances": 1,
+              "props": {},
+              "localNames": [
+                "OtherComponent"
+              ],
+              "filePaths": [
+                "src/App.tsx"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "unusedCount": 0,
+    "usedCount": 2,
+    "adoptionRate": 100
+  },
+  "components": {
+    "usedCount": 2,
+    "unusedCount": 0,
+    "coreAdoptionRate": 100,
+    "used": [
+      {
+        "name": "DSText",
+        "count": 1,
+        "core": true
+      },
+      {
+        "name": "OtherComponent",
+        "count": 1,
+        "core": true
+      }
+    ],
+    "unused": [],
+    "json": {
+      "definitions": [
+        {
+          "description": "",
+          "displayName": "DSText",
+          "methods": []
+        },
+        {
+          "description": "",
+          "displayName": "OtherComponent",
+          "methods": []
+        }
+      ],
+      "usage": {
+        "DSText": {
+          "instances": 1,
+          "props": {
+            "color": 1,
+            "size": 1
+          },
+          "localNames": [
+            "DSText"
+          ],
+          "filePaths": [
+            "src/App.tsx"
+          ]
+        },
+        "OtherComponent": {
+          "instances": 1,
+          "props": {},
+          "localNames": [
+            "OtherComponent"
+          ],
+          "filePaths": [
+            "src/App.tsx"
+          ]
+        }
+      }
+    }
+  },
+  "timestamp": 1725618391150,
+  "config": {
+    "crawlFrom": "./src",
+    "componentRoot": "./src/design-system",
+    "outputFile": "./src/design-system/report.json",
+    "ignore": [
+      "node_modules",
+      "dist",
+      "build",
+      "tests",
+      "test",
+      "docs",
+      "e2e",
+      "scripts",
+      "__tests__",
+      "**/.*",
+      "**/*.{test,spec}.{jsx,tsx,js,ts}",
+      "**/*.stories.{jsx,tsx,js,ts}",
+      "**/*.d.ts"
+    ],
+    "stack": "react"
+  },
+  "id": "2311fc37-3e1b-437a-88ad-179e2427ab38"
+}

@@ -1,0 +1,5 @@
+{
+  "crawlFrom": "./src",
+  "componentRoot": "./src/design-system",
+  "outputFile": "./src/design-system/report.json"
+}
